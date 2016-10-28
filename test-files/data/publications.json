@@ -1,0 +1,58 @@
+[
+    {
+        "name":"Adaptation dynamics in densely clustered chemoreceptors",
+        "authors":["Pontius W", "Sneddon MW", "Emonet T."],
+        "journal": "PLoS Computational Biology",
+        "year": 2013,
+        "abstract": "In many sensory systems, transmembrane receptors are spatially organized in large clusters. Such arrangement may facilitate signal amplification and the integration of multiple stimuli. However, this organization likely also affects the kinetics of signaling since the cytoplasmic enzymes that modulate the activity of the receptors must localize to the cluster prior to receptor modification. Here we examine how these spatial considerations shape signaling dynamics at rest and in response to stimuli. As a model system, we use the chemotaxis pathway of Escherichia coli, a canonical system for the study of how organisms sense, respond, and adapt to environmental stimuli. In bacterial chemotaxis, adaptation is mediated by two enzymes that localize to the clustered receptors and modulate their activity through methylation-demethylation. Using a novel stochastic simulation, we show that distributive receptor methylation is necessary for successful adaptation to stimulus and also leads to large fluctuations in receptor activity in the steady state. These fluctuations arise from noise in the number of localized enzymes combined with saturated modification kinetics between the localized enzymes and the receptor substrate. An analytical model explains how saturated enzyme kinetics and large fluctuations can coexist with an adapted state robust to variation in the expression levels of the pathway constituents, a key requirement to ensure the functionality of individual cells within a population. This contrasts with the well-mixed covalent modification system studied by Goldbeter and Koshland in which mean activity becomes ultrasensitive to protein abundances when the enzymes operate at saturation. Large fluctuations in receptor activity have been quantified experimentally and may benefit the cell by enhancing its ability to explore empty environments and track shallow nutrient gradients. Here we clarify the mechanistic relationship of these large fluctuations to well-studied aspects of the chemotaxis system, precise adaptation and functional robustness."
+    },
+    {
+        "name":"Regulated tissue fluidity steers zebrafish body elongation",
+        "authors":["Lawton AK", "Nandi A", "Stulberg MJ", "Dray N", "Sneddon MW", "Pontius W", "Emonet T", "Holley SA"],
+        "journal": "Development",
+        "year": 2013,
+        "abstract": "The tailbud is the posterior leading edge of the growing vertebrate embryo and consists of motile progenitors of the axial skeleton, musculature and spinal cord. We measure the 3D cell flow field of the zebrafish tailbud and identify changes in tissue fluidity revealed by reductions in the coherence of cell motion without alteration of cell velocities. We find a directed posterior flow wherein the polarization between individual cell motion is high, reflecting ordered collective migration. At the posterior tip of the tailbud, this flow makes sharp bilateral turns facilitated by extensive cell mixing due to increased directional variability of individual cell motions. Inhibition of Wnt or Fgf signaling or cadherin 2 function reduces the coherence of the flow but has different consequences for trunk and tail extension. Modeling and additional data analyses suggest that the balance between the coherence and rate of cell flow determines whether body elongation is linear or whether congestion forms within the flow and the body axis becomes contorted."
+    },
+    {
+        "name":"Modeling cellular signaling: taking space into the computation",
+        "authors":["Sneddon MW", "Emonet T"],
+        "journal": "Nature Methods",
+        "year": 2012,
+        "abstract": null
+    },
+    {
+        "name":"Stochastic coordination of multiple actuators reduces latency and improves chemotactic response in bacteria.",
+        "authors":["Sneddon MW", "Pontius W", "Emonet T"],
+        "journal": "PNAS",
+        "year": 2012,
+        "abstract": "Individual neuronal, signal transduction, and regulatory pathways often control multiple stochastic downstream actuators, which raises the question of how coordinated response to a single input can be achieved when individual actuators fluctuate independently. In Escherichia coli, the bacterial chemotaxis pathway controls the activity of multiple flagellar motors to generate the run-and-tumble motion of the cell. High-resolution microscopy experiments have identified the key conformational changes adopted by individual flagella during this process. By incorporating these observations into a stochastic model of the flagellar bundle, we demonstrate that the presence of multiple motors imposes a trade-off on chemotactic performance. Multiple motors reduce the latency of the response below the time scale of the stochastic switching of a single motor, which improves performance on steep gradients of attractants. However, the uncoordinated switching of multiple motors interrupts and shortens cell runs, which thereby reduces signal detection and performance on shallow gradients. Remarkably, when slow fluctuations generated by the adaptation mechanism of the chemotaxis system are incorporated in the model at levels measured in experiments, the chemotactic sensitivity and performance in shallow gradients is partially restored with marginal effects for steep gradients. The noise is beneficial because it simultaneously generates long events in the statistics of individual motors and coordinates the motors to generate a long tail in the run length distribution of the cell. Occasional long runs are known to enhance exploration of random walkers. Here we show that they have the additional benefit of enhancing the sensitivity of the bacterium to very shallow gradients."
+    },
+    {
+        "name":"Thermal robustness: lessons from bacterial chemotaxis",
+        "authors":["Dufour YS", "Sneddon MW", "Emonet T"],
+        "journal": "Current Biology",
+        "year": 2011,
+        "abstract": null
+    },
+    {
+        "name":"Efficient modeling, simulation and coarse-graining of biological complexity with NFsim",
+        "authors":["Faeder JR", "Emonet T"],
+        "journal": "Nature Methods",
+        "year": 2010,
+        "abstract": "Managing the overwhelming numbers of molecular states and interactions is a fundamental obstacle to building predictive models of biological systems. Here we introduce the Network-Free Stochastic Simulator (NFsim), a general-purpose modeling platform that overcomes the combinatorial nature of molecular interactions. Unlike standard simulators that represent molecular species as variables in equations, NFsim uses a biologically intuitive representation: objects with binding and modification sites acted on by reaction rules. During simulations, rules operate directly on molecular objects to produce exact stochastic results with performance that scales independently of the reaction network size. Reaction rates can be defined as arbitrary functions of molecular states to provide powerful coarse-graining capabilities, for example to merge Boolean and kinetic representations of biological networks. NFsim enables researchers to simulate many biological systems that were previously inaccessible to general-purpose software, as we illustrate with models of immune system signaling, microbial signaling, cytoskeletal assembly and oscillating gene expression."
+    },
+    {
+        "name":"Single-cell quantification of IL-2 response by effector and regulatory T cells reveals critical plasticity in immune response",
+        "authors":["Feinerman O", "Jentsch G", "Tkach KE", "Coward JW", "Hathorn MM", "Sneddon MW", "Emonet T", "Smith KA", "Altan-Bonnet G"],
+        "journal": "Molecular Systems Biology",
+        "year": 2010,
+        "abstract": "Understanding how the immune system decides between tolerance and activation by antigens requires addressing cytokine regulation as a highly dynamic process. We quantified the dynamics of interleukin-2 (IL-2) signaling in a population of T cells during an immune response by combining in silico modeling and single-cell measurements in vitro. We demonstrate that IL-2 receptor expression levels vary widely among T cells creating a large variability in the ability of the individual cells to consume, produce and participate in IL-2 signaling within the population. Our model reveals that at the population level, these heterogeneous cells are engaged in a tug-of-war for IL-2 between regulatory (T(reg)) and effector (T(eff)) T cells, whereby access to IL-2 can either increase the survival of T(eff) cells or the suppressive capacity of T(reg) cells. This tug-of-war is the mechanism enforcing, at the systems level, a core function of T(reg) cells, namely the specific suppression of survival signals for weakly activated T(eff) cells but not for strongly activated cells. Our integrated model yields quantitative, experimentally validated predictions for the manipulation of T(reg) suppression."
+    },
+    {
+        "name":"Definition of germinal-center B cell migration in vivo reveals predominant intrazonal circulation patterns",
+        "authors":["Hauser AE", "Junt T", "Mempel TR", "Sneddon MW", "Kleinstein SH", "Henrickson SE", "von Andrian UH", "Shlomchik MJ", "Haberman AM"],
+        "journal": "Immunity",
+        "year": 2007,
+        "abstract": "Proliferation, mutation, and selection in the germinal center (GC) are thought to occur in distinct microanatomical compartments-the dark zone (DZ) and the light zone (LZ). Thus, affinity maturation has been posited to require frequent trafficking between zones. Here we report the use of multiphoton in vivo microscopy to determine migration patterns of GC B cells. Analysis of time-resolved images revealed unexpected patterns of movement as well as GC B cell morphology. Though frequent movement between the DZ and LZ was anticipated, few cells were observed to cross the interface between the two compartments. Moreover, cell-track trajectories indicated that cell movement in this region is predominantly parallel to the interface, suggesting that B cells circulate within individual LZ and DZ compartments. The results suggest a revision to our views of B cell circulation within GCs and the functional relationship of its two major compartments."
+    }
+]
